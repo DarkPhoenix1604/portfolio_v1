@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    background-color: #000;
+    color: #fff;
+}
+
+header h1 {
+    padding: 0.5rem;
+}
+
+main {
+    position: fixed;
+    top: 4.5rem;
+}
+
+.greetings {
+    position: absolute;
+    top: 0rem;
+    padding: 0.25rem;
+    width: 100vw;
+    text-align: center;
+    font-weight: 100;
+    color: hsl(21, 91%, 43%);
+}
+
+.intro {
+    position: absolute;
+    top: 4rem;
+    padding: 0.25rem;
+    width: 100vw;
+    text-align: center;
+    color: #333333cc;
+}
+
+.name {
+    font-weight: 400;
+    position: absolute;
+    top: 6rem;
+    padding: 0.25rem;
+    width: 100vw;
+    text-align: center;
+    color: #333333a0;
+}
+
+.connect{
+    position: absolute;
+    top: 10rem;
+    width: 100vw;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.connect li{
+    list-style: none;
+    display: inline-block;
+}
+
+.connect li a{
+    display: block;
+    width: 25vw;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin: 2rem;
+    border-radius: 5vw;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+}
+
+.connect li a:hover{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid black;
+    transition: 3ms ease;
+}
+
+.info{
+    margin-top: 1px solid black;
+    position: absolute;
+    top: 20rem;
+    width: 100vw;
+    display: inline-block;
+    text-align: center;
+}
+
+.info p{
+    position: absolute;
+    top: 5rem;
+    text-align: justify;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.info h1{
+    font-weight: 400;
+}
+
+.EduData {
+    position: relative;
+    top: 0rem;
+    text-align: center;
+    width: 100vw;
+}
+
+.eduImg {
+    height: 15vh;
+}
+
+.separation {
+    margin-bottom: 1.6rem;
+    margin-top: 1.6rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.skill {
+    display: flex;
+    width: 100vw;
+    margin-top: 1.65rem;
+    margin-bottom: 1.65rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    justify-content: space-around;
+}
+
+.skillImg {
+    display: inline-block;
+    height: 10rem;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+footer ul {
+    background-color: #000;
+    width: 100%;
+    padding: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+footer ul li {
+    display: inline-block;
+    width: 32%;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .nav-links {
+    font-size: 1.5rem;
+}
+
+.nav-links:hover {
+    color: hsl(196, 93%, 77%);
+}
+
+footer .nav-links:hover {
+    font-size: 1.4rem;
+}
